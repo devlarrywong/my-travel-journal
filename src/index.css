@@ -1,0 +1,45 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: Inter, sans-serif;
+}
+
+.Header__container {
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f55a5a;
+}
+
+.Header__logo-container {
+  margin: 10px;
+  height: 24px;
+}
+
+.Header__logo {
+  height: 24px;
+  /* turn black to white */
+  filter: invert(100%);
+}
+
+.Header__title {
+  font-weight: 500;
+  font-size: 1em;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+  color: #ffffff;
+}

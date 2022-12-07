@@ -1,10 +1,10 @@
-import { useState } from 'react';
-import './App.css';
+import React from 'react';
+import Header from './components/Header';
 
 function App() {
   return (
     <div className="container">
-      <h1>test</h1>
+      <Header />
     </div>
   );
 }
